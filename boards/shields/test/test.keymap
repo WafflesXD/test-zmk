@@ -1,0 +1,14 @@
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+     
+    test_layer {
+      bindings = <
+        &kp j &kp l &kp u &kp y &kp ' 
+        &kp m &kp n &kp e &kp i &kp o 
+        &kp k &kp h &kp , &kp . &kp / 
+        &kp 1 &kp 2 &kp 3 
+      >;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+file_format: "1"
+id: test
+name: test
+type: shield
+url: https://github.com/WafflesXD/test-zmk/tree/main#
+requires: [seeed_xiao] 
+features:
+  - keys
