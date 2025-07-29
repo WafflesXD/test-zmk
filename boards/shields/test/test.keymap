@@ -1,5 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 / {
   keymap {
@@ -7,10 +9,10 @@
      
     test_layer {
       bindings = <
-        &kp J &kp L &kp U &kp Y &kp SQT
+        &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
         &kp M &kp N &kp E &kp I &kp O 
         &kp K &kp H &kp COMMA &kp DOT &kp SLASH 
-        &kp ENTER &kp BACKSPACE &kp DELETE 
+        &kp ENTER &kp BACKSPACE &ext_power EP_TOG
       >;
     };
   };
