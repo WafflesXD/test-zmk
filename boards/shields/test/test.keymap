@@ -7,10 +7,10 @@
      
     test_layer {
       bindings = <
-        &kp J &kp L &kp U &kp Y &kp ' 
+        &kp J &kp L &kp U &kp Y &kp SQT
         &kp M &kp N &kp E &kp I &kp O 
-        &kp K &kp H &kp , &kp . &kp / 
-        &kp 1 &kp 2 &kp 3 
+        &kp K &kp H &kp COMMA &kp DOT &kp SLASH 
+        &kp ENTER &kp BACKSPACE &kP DELETE 
       >;
     };
   };
