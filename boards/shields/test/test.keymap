@@ -10,7 +10,7 @@
         &kp J &kp L &kp U &kp Y &kp SQT
         &kp M &kp N &kp E &kp I &kp O 
         &kp K &kp H &kp COMMA &kp DOT &kp SLASH 
-        &kp ENTER &kp BACKSPACE &kP DELETE 
+        &kp ENTER &kp BACKSPACE &kp DELETE 
       >;
     };
   };
