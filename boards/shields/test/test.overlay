@@ -41,7 +41,7 @@
   };
 
   chosen {
-    zmk,kscan = &test_scan;
+    zmk,kscan = &test_kscan;
     zmk,physical-layout = &test_layout;
   };
 
