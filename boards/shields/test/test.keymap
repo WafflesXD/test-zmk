@@ -7,13 +7,24 @@
   keymap {
     compatible = "zmk,keymap";
      
-    test_layer {
+    /*test_layer {
       bindings = <
         &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
         &kp M &kp N &kp E &kp I &kp O 
         &kp K &kp H &kp COMMA &kp DOT &kp SLASH 
         &kp ENTER &kp BACKSPACE &ext_power EP_TOG
       >;
+    };*/
+
+    
+    test_layer {
+      bindings = <
+        &kp A &kp B &kp C &kp D &kp E
+        &kp F &kp G &kp H &kp I &kp J 
+        &kp K &kp L &kp M &kp N &kp O 
+                    &kp P &kp Q &kp R
+      >;
     };
+
   };
 };
